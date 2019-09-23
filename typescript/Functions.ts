@@ -1,0 +1,11 @@
+function add(x: number, y: number): number{
+    return x + y;
+}
+
+let myAdd = function(x: number, y: number): number { return x + y; };
+
+
+let myAddOne: (x: number, y: number) => number =
+    function(x, y){ return 1; };
+
+    
